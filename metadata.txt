@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Landscape Connectivity Toolbox
+qgisMinimumVersion=2.18
+description=Model landscape mobility according to least-cost path Networks and circuit theory models from Circuitscape in the Processing Toolbox.
+version=0.1
+author=Guillem Domingo Ribas
+email=guillem.dri@gmail.com
+
+about=This plugin enables the user to study landscape movement and connectivity from a combinatory perspective of both methods. The LCP Network algorithm belongs to an existing QGIS plugin (https://plugins.qgis.org/plugins/LCPNetwork/). Circuit theory models belong to Circuitscape. It is necessary to install the software (http://www.circuitscape.org/) prior to the utilisation of the plugin. Once the plugin is enabled, it is necessary to activate the plugin in the 'Options' of Processing and specify the directory where the "sc_run.exe" file from Circuitscape is located. Plugin created by Guillem Domingo Ribas (guillem.dri@gmail.com)
+
+homepage=https://github.com/gdomrib/landscape_connectivity
+repository=https://github.com/gdomrib/landscape_connectivity
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python, landscape, connectivity, movement, circuit theory, least-cost path, archaeology, ecology
+
+
+category=Analysis
+icon=icons/mobility.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+

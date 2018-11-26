@@ -16,7 +16,7 @@ Landscape Connectivity Toolbox is a QGIS plugin conceived as a toolbox for the s
 The plugin is accessed through the QGIS Processing Toolbox.
 
 
-It is necessary to <a href="https://circuitscape.org/downloads.html/">install Circuitscape</a> before the installation of the plugin.
+It is necessary to <a href="https://circuitscape.org/downloads.html">install Circuitscape</a> before the installation of the plugin.
 
 ## Least-Cost Path Network <img src="./icons/lcp.png" width="25" height="25" hspace="10"/>
 
@@ -25,7 +25,7 @@ The plugin applies the shortest path algorithm developed by Edsger W. Dijkstra t
 ## Circuitscape <img src="./icons/circuitscape.png" width="27" height="27"  hspace="10"/>
 
 From the toolbox, a **vector layer** with multiple points is required as the focal node. The tool automatically extracts the coordinates from QGIS and creates a unique ID for each point. It is also possible to provide a **cost surface raster** as a focal node. On the other hand, it is also necessary to specify one **raster file** as the resistance map with the cost values (resistances), which is automatically translated to ESRI ASCII.
-Circuitscape provides four modelling modes (Pairwise, Advanced, One-To-All and All-To-One) that are enabled through the toolbox. For further reference on the differences and the output, please check <a href="https://circuitscape.org/circuitscape_4_0_user_guide.html/">Circuitscape's user guide</a>.
+Circuitscape provides four modelling modes (Pairwise, Advanced, One-To-All and All-To-One) that are enabled through the toolbox. For further reference on the differences and the output, please check <a href="https://circuitscape.org/circuitscape_4_0_user_guide.html">Circuitscape's user guide</a>.
 
 
 Installation

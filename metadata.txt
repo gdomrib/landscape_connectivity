@@ -9,12 +9,12 @@
 [general]
 name=Landscape Connectivity Toolbox
 qgisMinimumVersion=2.18
-description=Model landscape mobility according to least-cost path Networks and circuit theory models from Circuitscape in the Processing Toolbox.
+description=Model landscape mobility according to least-cost path networks and circuit theory models from Circuitscape in the Processing Toolbox.
 version=0.1
 author=Guillem Domingo Ribas
 email=guillem.dri@gmail.com
 
-about=This plugin enables the user to study landscape movement and connectivity from a combinatory perspective of both methods. The LCP Network algorithm belongs to an existing QGIS plugin (https://plugins.qgis.org/plugins/LCPNetwork/). Circuit theory models belong to Circuitscape. It is necessary to install the software (http://www.circuitscape.org/) prior to the utilisation of the plugin. Once the plugin is enabled, it is necessary to activate the plugin in the 'Options' of Processing and specify the directory where the "sc_run.exe" file from Circuitscape is located. Plugin created by Guillem Domingo Ribas (guillem.dri@gmail.com)
+about=LCP Network algorithm corresponds to an existing QGIS plugin (https://plugins.qgis.org/plugins/LCPNetwork/). Circuit theory models belong to Circuitscape. It is necessary to install the software (http://www.circuitscape.org/) prior to the utilisation of the plugin. Once the plugin is enabled, the user must activate the plugin in the 'Options' window of the Processing Toolbox and specify the directory where the "sc_run.exe" file from Circuitscape is located. Plugin created by Guillem Domingo Ribas (guillem.dri@gmail.com)
 
 homepage=https://github.com/gdomrib/landscape_connectivity
 repository=https://github.com/gdomrib/landscape_connectivity

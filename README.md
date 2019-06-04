@@ -16,7 +16,7 @@ Landscape Connectivity Toolbox is a QGIS plugin conceived as a toolbox for the s
 The plugin is accessed through the QGIS Processing Toolbox.
 
 
-It is necessary to <a href="https://circuitscape.org/downloads.html">install Circuitscape</a> before the installation of the plugin.
+It is necessary to <a href="https://circuitscape.org/downloads/">install Circuitscape</a> before the installation of the plugin.
 
 ## Least-Cost Path Network <img src="./icons/lcp.png" width="25" height="25" hspace="10"/>
 

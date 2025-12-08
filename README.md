@@ -7,7 +7,7 @@ Landscape Connectivity Toolbox           <img src="./icons/mobility.png" width="
 
 **Licence: GNU GPLv3**
 
-[![DOI](https://zenodo.org/badge/159153385.svg)](https://doi.org/10.5281/zenodo.17856340)
+<a href="https://doi.org/10.5281/zenodo.17856340"><img src="https://zenodo.org/badge/159153385.svg" alt="DOI"></a>
 
 
 Description
